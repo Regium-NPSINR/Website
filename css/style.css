@@ -6,6 +6,11 @@
     src: url('../font/AgrandirNarrow.otf');
 }
 
+@font-face {
+    font-family: 'Lastica';
+    src: url('../font/Lastica.ttf')
+}
+
 body {
     background: #090b21;
     color: #cc8c44;
@@ -161,11 +166,11 @@ h6 {
 }
 
 #header #logo h1 {
-    font-size: 36px;
+    font-size: 25px;
     margin: 0;
     padding: 6px 0;
     line-height: 1;
-    font-family: "AgrandirNarrow", sans-serif;
+    font-family: "Lastica", sans-serif;
     font-weight: 700;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -507,14 +512,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
     color: #fff;
+    font-family: "Lastica", sans-serif;
+    font-size: 108px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#intro h2 {
+    color: #fff;
+    font-family: "Lastica", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#intro h3{
+    color: #fff;
     font-family: "AgrandirNarrow", sans-serif;
-    font-size: 56px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 #intro h1 span {
-    color: #cc8c44;
+    color: #f0aa5b;
+    letter-spacing: 0.125em;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #cc8c44, 0 0 0.3em #cc8c44;
+}
+
+#intro h2 span{
+    color: #8729d9;
+    letter-spacing: 0.123em;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #5b129b, 0 0 0.3em #5b129b;
+
 }
 
 #intro p {
@@ -678,7 +707,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about h3 {
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -686,7 +715,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: #fff;
 }
@@ -784,7 +813,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers-details .details p {
     color: #9195a2;
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -1412,6 +1441,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-family: "AgrandirNarrow", sans-serif;
     font-weight: 700;
     color: #fff;
+}
+
+#footer .footer-top .footer-info h1 {
+    font-family: "Lastica", sans-serif;
+    letter-spacing: 0.125em;
 }
 
 #footer .footer-top .footer-info img {
