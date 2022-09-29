@@ -513,17 +513,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro h1 {
     color: #fff;
     font-family: "Lastica", sans-serif;
-    font-size: 108px;
+    font-size: 10vw;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 0.125em;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #cc8c44, 0 0 0.3em #cc8c44;
 }
 
 #intro h2 {
     color: #fff;
     font-family: "Lastica", sans-serif;
-    font-size: 45px;
+    font-size: 5vw;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 0.125em;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #5b129b, 0 0 0.3em #5b129b;
 }
 
 #intro h3{
@@ -535,15 +539,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 span {
     color: #f0aa5b;
-    letter-spacing: 0.125em;
-    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #cc8c44, 0 0 0.3em #cc8c44;
 }
 
 #intro h2 span{
-    color: #8729d9;
-    letter-spacing: 0.123em;
-    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #5b129b, 0 0 0.3em #5b129b;
-
+    color: #8210e6;
 }
 
 #intro p {
@@ -1690,4 +1689,199 @@ body.mobile-nav-active #mobile-nav-toggle {
     #subscribe button {
         margin-top: 10px;
     }
+}
+
+/*.register-btn {*/
+/*  border-radius: 28px;*/
+/*  color: #ffffff;*/
+/*  font-size: 20px;*/
+/*  background: #cc8c44;*/
+/*  padding: 10px 20px 10px 20px;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/*.register-btn:hover {*/
+/*  background: #cc8c44;*/
+/*  text-decoration: none;*/
+/*}*/
+
+.register-btn {
+    color: #fff;
+    background: #cc8c44;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid #cc8c44;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 20px;
+    /*text-align: center;*/
+    display: inline-block;
+}
+
+.register-btn:hover {
+    color: #fff;
+    background: none;
+}
+
+.art-line::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #8daaff;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.art-register-btn {
+    color: #fff;
+    background: #8daaff;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid #8daaff;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 20px;
+    /*text-align: center;*/
+    display: inline-block;
+}
+
+.art-register-btn:hover {
+    color: #fff;
+    background: none;
+}
+
+.dance-line::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #ff5943;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.dance-register-btn {
+    color: #fff;
+    background: #ff5943;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid #ff5943;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 20px;
+    /*text-align: center;*/
+    display: inline-block;
+}
+
+.dance-register-btn:hover {
+    color: #fff;
+    background: none;
+}
+
+.drama-line::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #ff6193;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.drama-register-btn {
+    color: #fff;
+    background: #ff6193;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid #ff6193;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 20px;
+    /*text-align: center;*/
+    display: inline-block;
+}
+
+.drama-register-btn:hover {
+    color: #fff;
+    background: none;
+}
+
+.music-line::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #00b2ac;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.music-register-btn {
+    color: #fff;
+    background: #00b2ac;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid #00b2ac;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 20px;
+    /*text-align: center;*/
+    display: inline-block;
+}
+
+.music-register-btn:hover {
+    color: #fff;
+    background: none;
+}
+
+.cognitive-line::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #a50000;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.cognitive-register-btn {
+    color: #fff;
+    background: #a50000;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid #a50000;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 20px;
+    /*text-align: center;*/
+    display: inline-block;
+}
+
+.cognitive-register-btn:hover {
+    color: #fff;
+    background: none;
 }
